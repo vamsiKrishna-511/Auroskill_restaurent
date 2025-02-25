@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Navbar  -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a href="#" class="navbar-brand text-light">RESTURENT</a>
+
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-items">
+              <a href="./Products.html" class="nav-link text-light active">Home</a>
+            </li>
+            <li class="nav-items">
+              <a href="" class="nav-link text-light">Products</a>
+            </li>
+            <li class="nav-items">
+              <a href="#contact" class="nav-link text-light">contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero section -->
+
+    <section class="hero d-flex align-items-center" id="hero">
+      <div class="container">
+        <div class="text-info
+         font-weight-bold display-6" id="hero-text">
+          <h2>
+            Welcome to <span class="text-warning">Restaurant</span> <br />
+            Delivering great food for more than 18 years!
+          </h2>
+        </div>
+        <div class="btn btn-warning ">Our Menu</div>
+        <div class="btn btn-warning ">Book Table</div>
+      </div>
+    </section>
+
+    <!-- INTRODUCTION -->
+
+    <section class="mt-5 mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 ">
+            <!-- Assuming this column contains an image -->
+            <img src="./Images/gallery-2 (1).jpg" alt="" class="w-100 img-fluid">
+          </div>
+          <div class=" col-lg-6 ">
+            <!-- Assuming this column contains text content -->
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis nulla, sed esse culpa voluptatum asperiores!</h3>
+            <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quam cum mollitia veniam quo alias ipsam at illo magni, modi nobis labore dolorum magnam ipsa, exercitationem, aperiam voluptatum.
+            </p>
+            <ul>
+              <li style="list-style-type: none;"><img src="./Images/task.svg" alt="" style="width: 30px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, fugit?</li>
+              <li style="list-style-type: none;"><img src="./Images/task.svg" alt="" style="width: 30px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, fugit?</li>
+              <li style="list-style-type: none;"><img src="./Images/task.svg" alt="" style="width: 30px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, fugit?</li>
+            </ul>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quae inventore pariatur facilis aspernatur officiis facere soluta reprehenderit. Repellat quam facilis aut voluptate.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cards -->
+
+    <section class="cards">
+      <div class="container">
+        <div class="card-top-text text-center mb-5">
+          <h1 class="text-danger">why us</h1>
+          <h1 class="text-info">why choose our resturent</h1>
+        </div>
+
+        <div class="row ">
+          <div class="col d-flex justify-content-center">
+            <div class="card m-3" style="width: 18rem">
+              <img src="./Images/bread-barrel.jpg" alt="" class="card-img-top">
+              <div class="card-body ">
+                <div class="card-title h4">Lorem ipsum dolor sit amet.</div>
+                <div class="card-text">Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit.
+                  Obcaecati, consectetur qui.
+                  </div>
+                
+
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center">
+            <div class="card m-3" style="width: 18rem">
+              <img src="./Images/greek-salad.jpg" alt="" class="card-img-top">
+              <div class="card-body ">
+                <div class="card-title h4">Lorem ipsum dolor sit amet.</div>
+                <div class="card-text">Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit.
+                  Obcaecati, consectetur qui.</div>
+                
+
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center">
+            <div class="card m-3" style="width: 18rem">
+              <img src="./Images/lobster-bisque.jpg" alt="" class="card-img-top">
+              <div class="card-body">
+                <div class="card-title h4">Lorem ipsum dolor sit amet.</div>
+                <div class="card-text">Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit.
+                  Obcaecati, consectetur qui.</div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Form section -->
+
+    <section class="project-form m-5" id="contact">
+      <div class="container">
+        <div class="form-title text-center">
+          <h1>Contact Us</h1>
+          <h1>You will get response shortly</h1>
+        </div>
+        <form class="mt-5" >
+          <div class="row">
+            <div class="col-lg-6 mt-3">
+              <input type="text" class="form-control" placeholder="First Name">
+            </div>
+            <div class="col-lg-6 mt-3">
+              <input type="text" class="form-control" placeholder="Last Name">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <input type="text" placeholder="Subject" class="form-control mt-3">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <textarea name="Comments" id="" cols="30" rows="10" class="form-control mt-3" placeholder="Comment"></textarea>
+            </div>
+          </div>
+          <div class="btn btn-primary mt-3">Submit</div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
